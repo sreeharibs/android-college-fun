@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VKCET</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nav_bar">NavBar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="privacy_prompt">Make your selection</string>
+
+    <string-array name="privacy">
+        <item> Privacy - Secured </item>
+        <item> Privacy - Open </item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

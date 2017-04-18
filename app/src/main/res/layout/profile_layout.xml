@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/tvPname"
+        android:textColor="#fb4305"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="( position at Company )"
+        android:id="@+id/tvPtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp" />
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:id="@+id/imageView2"
+        android:src="@drawable/emailpng"
+        android:layout_alignTop="@+id/tvAdmNo"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="email@provider.tld||email||"
+        android:id="@+id/tvAdmNo"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPtitle"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="+91-9XXXXXXXXX"
+        android:id="@+id/tvPhone"
+        android:textSize="20dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:id="@+id/imageView4"
+        android:src="@drawable/calpng"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_marginTop="05dp" />
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:id="@+id/imageView5"
+        android:src="@drawable/circpng"
+        android:layout_alignTop="@+id/tvDep"
+
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="20XX Batch"
+        android:id="@+id/tvBatch"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="DEP Dep"
+        android:id="@+id/tvDep"
+        android:textSize="20dp"
+        android:layout_below="@+id/tvPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit My Profile"
+        android:id="@+id/btnEdit"
+        android:layout_below="@+id/tvBatch"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/select"
+        android:id="@+id/proPic"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:id="@+id/imageView"
+        android:src="@drawable/phonepng"
+        android:layout_alignTop="@+id/tvPhone"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+
+</RelativeLayout>
+</ScrollView>
